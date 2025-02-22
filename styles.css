@@ -187,6 +187,17 @@ section h2 {
     gap: 0.5rem;
 }
 
+.anchor-text-resume {
+    color: var(--color-highlight);
+    text-decoration: none;
+    transition-duration: 200ms;
+    width: fit-content;
+}
+
+.anchor-text-resume:hover {
+    color: var(--color-accent);
+}
+
 .project-card{
     gap: 1rem;
 }
@@ -391,9 +402,9 @@ footer p {
         margin-right: auto;
     }
 
-    .sticky-header {
+    /* .sticky-header {
         display: none;
-    }
+    } */
 
     .project-image-container{
         order: 0;
